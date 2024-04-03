@@ -1,0 +1,58 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+}
+
+.navstyle {
+    width: 100%; 
+    height: 50px; 
+    background: linear-gradient(to right, #a8ff78, #78ffd6); 
+    color: white;
+}
+
+.navstyle ul {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navstyle ul li {
+     list-style: none;
+    color: white;
+}
+.navstyle ul li a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navstyle ul li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.headstyle {
+    padding-top: 5%;
+    width: 100%;
+    height: 250px;
+    background: black;
+    color: floralwhite;
+    text-align: center;
+}
+
+.headstyle h1 {
+    font-size: 45px;
+}
+
+.headstyle h1:hover {
+    color: lightgray;
+}
+
+.headstyle p {
+    font-size: 15px;
+}
+
+.headstyle p:hover {
+    color: lightgray;
+}

@@ -1,0 +1,33 @@
+.CartDiv1 {
+    width: 50%;
+    height: 500px;
+    margin: 10% auto 10% auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: floralwhite;
+    position: relative;    
+}
+
+.CartDiv2 {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    overflow: auto;
+}
+
+.CartDiv3 {
+    width: 47%;    
+}
+
+.CartDiv4 {
+    width: 47%;    
+}
+
+.CartDiv5 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    z-index: 10;
+}

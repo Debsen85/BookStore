@@ -1,0 +1,65 @@
+.AboutHr {
+    border: 5px solid black;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+}
+
+.AboutDiv1 {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    height: 350px;  
+    margin: 2% auto 2% auto; 
+    border: 0px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.12), 0 6px 8px rgba(0, 0, 0, 0.24);
+    background: linear-gradient(to right, #fffc00, #ffffff);
+}
+
+.AboutDiv21 {
+    width: 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Assets/Div1.jpg');
+}
+
+.AboutDiv22 {
+    width: 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Assets/Div2.jpg');
+}
+
+.AboutDiv23 {
+    width: 55%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Assets/Div3.jpg');
+}
+
+.AboutDiv3 {
+    text-align: justify;
+    width: 40%;
+    padding-top: 130px;
+    padding-right: 50px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.AboutHead1 {
+    font-size: 30px;
+    color: goldenrod;
+}
+
+.AboutHead2 {
+    font-size: 24px;
+    color: goldenrod;
+}
+
+.AboutHead1:hover {
+    color: rgb(255, 242, 0);
+}
+
+.AboutHead2:hover {
+    color: rgb(255, 242, 0);
+}

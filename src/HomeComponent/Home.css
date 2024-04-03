@@ -1,0 +1,42 @@
+.HomeDiv1 {
+    display: flex;
+    width: 100%;
+}
+
+.HomeDiv2 {
+    width: 60%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Assets/BG1.jpg');
+}    
+
+.text1 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    left: 150px;
+    top: 630px;    
+}
+
+.text1:hover {
+    color: lightgray;
+}
+
+.text2:hover {
+    color: lightgray;
+}
+
+.text2 {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    left: 150px;
+    top: 680px;    
+}
+
+.HomeDiv3 {
+    width: 40%;
+    content: url('../Assets/BG2.jpg');
+}

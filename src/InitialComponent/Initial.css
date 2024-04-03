@@ -1,0 +1,50 @@
+.InitDiv1 {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.InitDiv2 {
+    width: 40%;
+    border: 5px solid black;
+    background: linear-gradient(to right, #fceabb, #f8b500);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.headstyle {
+    padding-top: 5%;
+    width: 100%;
+    height: 250px;
+    background: black;
+    color: floralwhite;
+    text-align: center;
+}
+
+.headstyle h1 {
+    font-size: 45px;
+}
+
+.headstyle p {
+    font-size: 15px;
+}
+
+.Foot {
+    position: relative;  
+    bottom: 0;  
+    height: 50px;
+    width: 100%;
+    background: black;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+
+.Foot p {
+    font-size: 15px;
+}

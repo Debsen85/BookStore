@@ -1,0 +1,14 @@
+.Foot {
+    position: relative;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background: black;
+    color: floralwhite;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;    
+}
+.Foot p {
+    font-size: 15px;
+}
